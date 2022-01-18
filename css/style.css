@@ -363,8 +363,9 @@ td, th{
     position:absolute;  
     left:10%; 
     right:10%; 
-    top:50%;
+    bottom:50%;
     padding-bottom:10px;
+    border:1px solid red;
 }
     
 .text{
