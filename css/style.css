@@ -319,7 +319,7 @@ td, th{
 
 .slide{
     background-image: no-repeat fixed center center;
-	background-size: cover;
+    background-size: cover;
     padding: 285px;
     position:absolute; 
     left:0; 
@@ -360,10 +360,8 @@ td, th{
 }
 
 .slideup {
-    position:absolute;  
-    left:10%; 
-    right:10%; 
-    top:100px;
+    position:relative;  
+    top:-225px;
     padding-bottom:10px;
 }
     
