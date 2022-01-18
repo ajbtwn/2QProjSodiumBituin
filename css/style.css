@@ -389,24 +389,24 @@ td, th{
 .slideup div:nth-child(6) { animation-delay: 35s;  }
 
 @-webkit-keyframes slide{
-    0%{bottom:-69.44vh;opacity:1;}
-    3.57%{bottom:-69.44vh;}
+    0%{bottom:-69.44vh;opacity:0;}
+    3.57%{bottom:-69.44vh;opacity:1;}
     5.95%{bottom:0px;}
     16.66%{bottom:0px;opacity:1;z-index:1;}
     19.04%{z-index:-1;opacity:0;}
 }
 
 @-moz-keyframes slide{
-    0%{bottom:-69.44vh;opacity:1;}
-    3.57%{bottom:-69.44vh;}
+    0%{bottom:-69.44vh;opacity:0;}
+    3.57%{bottom:-69.44vh;opacity:1;}
     5.95%{bottom:0px;}
     16.66%{bottom:0px;opacity:1;z-index:1;}
     19.04%{z-index:-1;opacity:0;}
 }
 
 @keyframes slide{
-    0%{bottom:-69.44vh;opacity:1;}
-    3.57%{bottom:-69.44vh;}
+    0%{bottom:-69.44vh;opacity:0;}
+    3.57%{bottom:-69.44vh;opacity:1;}
     5.95%{bottom:0vh;}
     16.66%{bottom:0vh;opacity:1;z-index:1;}
     19.04%{z-index:-1;opacity:0;}
